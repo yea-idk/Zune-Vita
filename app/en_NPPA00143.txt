@@ -1,0 +1,17 @@
+Adventure Bar Labyrinth
+
+Adventure Bar Labyrinth is a rogue-like RPG that challenges you to tackle an unknown dungeon.
+To bring back the legendary treasure, you’ll need to enter the depths of the dungeon, find
+weapons and shields, and use magic rods and potions to fight against monsters and raise your level.
+
+Each time you enter the dungeon, its structure changes along with the items and monsters within it.
+You can challenge the dungeon again and again, even if you’ve already cleared it. If you’re defeated,
+the items you obtain will all be lost, and your level will be reset to 1.
+
+The ingredients you collect from the dungeon can be cooked in the bar to make food, granting positive
+effects and EXP for the next adventure. Use all sorts of items to deal with the monsters, find rare
+treasures and reveal the mystery of the labyrinth!
+
+2013 Rideon Japan
+NPPA00143
+                                                                                                                            
