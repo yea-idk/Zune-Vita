@@ -1,6 +1,5 @@
---v0.113
--- i have no idea what im doing anymore
-function appcull()
+--v0.120
+function appcull() -- only have 4 images loaded, only 3 are ever visible at once
 	tmp = 0
 	if (offset < 1) then
 		offset = 1
@@ -119,12 +118,12 @@ while true do
 			first = 1
 		end
 	end
-	if (x - y <= -175 * 3) then -- track touch for culling
+	if (x - y <= -281) then -- track touch for culling
 		update = 1
-		offset = offset - 3
-	elseif (x - y >= 175 * 3) then
+		offset = offset - 1
+	elseif (x - y >= 281) then
 		update = 1
-		offset = offset + 3
+		offset = offset + 1
 	end
 	Graphics.initBlend()
 	Screen.clear()
@@ -144,7 +143,7 @@ while true do
 				Graphics.drawScaleImage(25, y + (281 * offset), app1, 2, 2)
 				Graphics.drawScaleImage(25, y + (281 * 2 * offset), app2, 2, 2)
 				Graphics.drawScaleImage(25, y + (281 * 3 * offset), app3, 2, 2)
-				Graphics.drawScaleImage(25, y + (281 * 4 * offset), app4, 2, 2)
+				Graphics.drawScaleImage(25, y + (281* 4 * offset), app4, 2, 2)
 				Font.print(font, 288, y + (281 * tmp), appdesc[tmp], grey)
 			end
 		end
